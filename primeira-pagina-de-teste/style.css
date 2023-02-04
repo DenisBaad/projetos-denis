@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0px 0px;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.hero nav a{
+    background-color: rgba(0,0,0,0.3);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.hero{
+    background-image: url(imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px #333;
+}
+
+.hero-content p{
+    display: inline-block;
+    background-color: rgba(0,0,0, 0.8);
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.card{
+    display: inline-block;
+    width: 33%;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card p{
+    background-color: rgb(85, 83, 83);
+    color: white;
+    margin: 0px;
+    padding: 15px;
+}
+
+.content-section{
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.content-section h2{
+    background-color: rgba(128, 125, 125, 0.267);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.content-section p{
+    padding-bottom: 8px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(145, 143, 143);
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    text-shadow: 2px 2px 2px black;
+}
