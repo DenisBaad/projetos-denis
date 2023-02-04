@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(68.15deg, #2f2325 16.62%, #8E5D52 85.61%);
+}
+
+/*Cabeçalho//////////////////////////////////////////////////*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 24px;
+}
+
+.logo{
+    border-radius: 50%;
+    height: 72px;
+}
+
+ul{
+    display: flex;
+    gap: 32px;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: aqua;
+}
+
+/*Main///////////////////////////////////////////////////////*/
+
+.conteudo-principal{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 400px;
+    color: #FFF2E7;
+}
+
+.conteudo-principal-escrito h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+
+.btn{
+    background-color: #ECD6C4;
+    border-radius: 20px;
+    width: 180px;
+    height: 60px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #2f2325;
+}
+
+.btn:hover{
+    background-color: aqua;
+}
+
+.img1{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    color: white;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+/*Rodape/////////////////////////////////////////////////////*/
+
+footer{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2{
+    height: 48px;
+}

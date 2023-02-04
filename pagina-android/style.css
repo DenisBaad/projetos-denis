@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family= Dancing+Script & display = swap');
+
+@font-face {
+font-family: 'Android';
+src: url('../fontes/idroid.otf') format('opentype');
+font-weight: normal;
+}
+
+/*Configurações gerais*/
+
+:root {
+    --fonte-padrão: Arial, Verdana, Helvetica, Sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-androi: 'Android' cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--fonte-padrão);
+    background-color: #c5ebd6;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+/*Aqui começamos as configurações do cabeçalho*/
+
+header {
+    background-image: linear-gradient(to bottom, #2fa866, #063d1e);
+    min-width: 150px;
+    text-align: center;
+    padding-top: 40px;    
+}
+
+ header h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px black;
+}
+
+header p {
+    color: white;
+    font-family: var(--fonte-padrão);
+    font-size: 1,2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px; 
+    margin: auto;
+    text-shadow: 2px 2px 0px black;
+}
+
+/*Aqui começamos as configurações da nav*/
+
+nav {
+    background-color: #063d1e;
+    text-align: left;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.466);
+}
+
+nav a {
+    color: #83e1ad;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .5s;
+}
+
+nav a:hover {
+    background-color: #05aa2e;
+    color: #063d1e;
+    text-decoration: underline;
+}
+
+/*Partimos agora para as configurações do corpo*/
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.377);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: #063d1e;
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main h2 {
+    font-family: var(--fonte-android);
+    color: #1a5c37;
+    font-size: 1.3em;
+    font-weight: normal;
+    background-image: linear-gradient(to right, #83e1ad, transparent);
+    text-indent: 8px;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: #1a5c37;
+    font-weight: bolder;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #063d1e;
+    background-color: #83e1ad;
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #1a5c37;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+main div.video {
+    padding: 20px;
+}
+
+main aside {
+    background-color: #83e1ad;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.452);
+}
+
+main aside h3 {
+    background-color: #1a5c37;
+    color: white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+main aside ul {
+    list-style-position: inside;
+    columns: 2;
+}
+
+.midia {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*Partimos agora para o rodapé*/
+
+footer {
+    background-color: #063d1e;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #83e1ad;
+}
+    
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+    
